@@ -348,7 +348,7 @@ body {
 
 .projects__link {
     transition: .5s all ease-in-out;
-    overflow: hidden;
+
 }
 
 .projects__image {
@@ -406,3 +406,7 @@ li {
     align-items: center;
     width: 1%;
 }
+
+.projects__link:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
